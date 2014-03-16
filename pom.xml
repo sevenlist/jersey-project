@@ -40,13 +40,11 @@
             <version>${jersey.version}</version>
         </dependency>
 
-        <!--
-                <dependency>
-                    <groupId>org.glassfish.jersey.core</groupId>
-                    <artifactId>jersey-client</artifactId>
-                    <version>${jersey.version}</version>
-                </dependency>
-        -->
+        <dependency>
+            <groupId>org.glassfish.jersey.core</groupId>
+            <artifactId>jersey-client</artifactId>
+            <version>${jersey.version}</version>
+        </dependency>
 
         <dependency>
             <groupId>org.glassfish.jersey.media</groupId>
@@ -56,7 +54,7 @@
     </dependencies>
 
     <properties>
-        <jersey.version>2.6</jersey.version>
+        <jersey.version>2.7</jersey.version>
     </properties>
 
     <build>
